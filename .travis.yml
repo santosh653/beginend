@@ -1,4 +1,5 @@
 language: nix
+arch: ppc64le
 
 install:
   - bash <(curl https://raw.githubusercontent.com/purcell/nix-emacs-ci/master/travis-install)
