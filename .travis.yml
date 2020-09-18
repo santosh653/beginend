@@ -2,7 +2,6 @@ language: nix
 
 install:
   - bash <(curl https://raw.githubusercontent.com/purcell/nix-emacs-ci/master/travis-install)
-arch: ppc64le
 env:
   - EMACS_CI=emacs-25-3
   - EMACS_CI=emacs-26-3
